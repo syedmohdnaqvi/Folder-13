@@ -1,0 +1,63 @@
+.navbar{
+    max-width: 100%;
+    height: 100px;
+    border: 2px solid black;
+   }
+   .secone{
+    max-width:100%;
+    height: 250px;
+    border: 2px solid black;
+    overflow: scroll;
+    font-size: 1.5rem;
+   }
+   .image{
+    max-width: 100%;
+    height: 300px;      
+   }
+   .imgone{
+    max-width: 100%;
+    height: 20rem;
+   }
+   .imgtwo{
+    max-width: 100%;
+    height: 20rem;
+   }
+   .imgthree{
+    max-width: 100%;
+    height: 20rem;
+   }
+   @media only screen and (max-width: 400px) {
+     .imgone{
+        margin-left:5%;
+     }
+     .imgtwo{
+        margin-left:5%;
+     }
+     .imgthree{
+        margin-left:5%;
+     }
+   }
+
+   @media only screen and (min-width:400px) and (max-width: 800px) {
+    .imgone{
+       margin-left:7%;
+    }
+    .imgtwo{
+       margin-left:7%;
+    }
+    .imgthree{
+       margin-left:7%;
+    }
+  }
+
+  @media only screen and (min-width:800px) and (max-width: 2000px) {
+    .imgone{
+       margin:auto;
+    }
+    .imgtwo{
+       margin:auto;
+    }
+    .imgthree{
+       margin:auto;
+    }
+  }
